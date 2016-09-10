@@ -1,21 +1,21 @@
-header ul {
+.header {
     background-color: powderblue;
-    color: white;
     list-style: none;
     margin: 0;
     padding: 0;
-    position: fixed;
     text-align: center;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     top: 0;
+    left: 0;
     height: auto;
     position: fixed;
-    z-index: 100;
 }
 
-
-
+ul {
+    margin-top: 30px;
+    color: white;
+}
 .push {
     margin-bottom: 30px;
 }
@@ -96,7 +96,8 @@ h4 {
 .education li {
     list-style: none;
     text-align: left;
-    padding-left: 12em;
+    padding-left: 10em;
+    color: black;
 }
 
 .daisy {
@@ -140,7 +141,7 @@ label {
     width: 90px;
     color: white;
     font-size: 0.75em;
-    padding-left: 14em;
+    padding-left: 3em;
 }
 
 input, textarea {
@@ -154,7 +155,7 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: grey
+    border-color: grey;
 }
 
 textarea {
@@ -203,3 +204,8 @@ hr {
     width: 75%;
 }
 
+
+.links {
+    text-decoration: none;
+    color: powderblue;
+}
